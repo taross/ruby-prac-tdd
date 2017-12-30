@@ -4,5 +4,6 @@ rvm: 2.5.0-dev
 install: bundle install
 cache:
     directories: vendor/bundle
-script: bundle update &&\
-        bundle exec rspec
+script:
+    - bundle update
+    - bundle exec rspec
