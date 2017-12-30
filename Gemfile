@@ -15,4 +15,5 @@ group :development, :test do
   gem "pry-stack_explorer"
   gem "refe2"
   gem "rspec"
+  gem "rubocop"
 end
