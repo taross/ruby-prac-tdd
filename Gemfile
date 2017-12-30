@@ -16,4 +16,5 @@ group :development, :test do
   gem "refe2"
   gem "rspec"
   gem "rubocop"
+  gem "rspec_junit_formatter"
 end
