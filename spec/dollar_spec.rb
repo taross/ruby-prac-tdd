@@ -7,6 +7,6 @@ describe Dollar do
     end
     it "is equalable to same amount object" do
         dollar = Dollar.new(10)
-        expect(dollar == Dollar.new(10)).to eq true
+        expect(dollar).to eq Dollar.new(10)
     end
 end
