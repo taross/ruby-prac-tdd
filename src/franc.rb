@@ -1,17 +1,13 @@
-class Franc
+require_relative 'money.rb'
 
-    attr_reader :amount
+class Franc < Money
 
     def initialize(amount)
-        @amount = amount
+        super
     end
 
     def times(amount)
         Franc.new(@amount * amount)
-    end
-
-    def ==(other)
-        return true if self.amount == other.amount
     end
 
 end
